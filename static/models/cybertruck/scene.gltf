@@ -1,0 +1,710 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9689,
+      "max": [
+        12.68429946899414,
+        4.220266819000244,
+        4.434234619140625
+      ],
+      "min": [
+        -9.976490020751953,
+        -3.0662827491760254,
+        -4.526763916015625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 116268,
+      "componentType": 5126,
+      "count": 9689,
+      "max": [
+        0.9999703168869019,
+        0.999502956867218,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999691247940063,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9689,
+      "max": [
+        62.22809982299805,
+        -4.258749961853027
+      ],
+      "min": [
+        1.651669979095459,
+        -61.22890090942383
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9717,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 232536,
+      "componentType": 5126,
+      "count": 54,
+      "max": [
+        -3.8801002502441406,
+        2.082627296447754,
+        4.004241943359375
+      ],
+      "min": [
+        -9.856630325317383,
+        -0.8584427833557129,
+        -3.8907623291015625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 233184,
+      "componentType": 5126,
+      "count": 54,
+      "max": [
+        0.995932400226593,
+        -0.0236799456179142,
+        0.604410707950592
+      ],
+      "min": [
+        -0.9787188768386841,
+        -0.2127695381641388,
+        -0.6081771850585938
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 77512,
+      "componentType": 5126,
+      "count": 54,
+      "max": [
+        60.043399810791016,
+        1.0298399925231934
+      ],
+      "min": [
+        39.51860046386719,
+        -49.183799743652344
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 38868,
+      "componentType": 5125,
+      "count": 54,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 233832,
+      "componentType": 5126,
+      "count": 942,
+      "max": [
+        12.689800262451172,
+        4.220277309417725,
+        4.038238525390625
+      ],
+      "min": [
+        -10.048891067504883,
+        -1.389232873916626,
+        -4.0967559814453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 245136,
+      "componentType": 5126,
+      "count": 942,
+      "max": [
+        0.9980250000953674,
+        0.9988866448402405,
+        0.999225914478302
+      ],
+      "min": [
+        -0.9995056986808777,
+        -1.0,
+        -0.9992267489433289
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 77944,
+      "componentType": 5126,
+      "count": 942,
+      "max": [
+        38.22760009765625,
+        -16.715299606323242
+      ],
+      "min": [
+        15.77239990234375,
+        -50.421199798583984
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 39084,
+      "componentType": 5125,
+      "count": 942,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 256440,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        -8.549240112304688,
+        -0.36498260498046875,
+        3.77423095703125
+      ],
+      "min": [
+        -9.440470695495605,
+        -0.4396829605102539,
+        -3.86376953125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 256584,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        -0.741669774055481,
+        2.5776706024771556e-05,
+        0.6707187294960022
+      ],
+      "min": [
+        -0.7417212724685669,
+        -0.00790612306445837,
+        -0.6707169413566589
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 85480,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        48.064998626708984,
+        -26.99650001525879
+      ],
+      "min": [
+        25.935100555419922,
+        -57.003700256347656
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 42852,
+      "componentType": 5125,
+      "count": 12,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 256728,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        12.52400016784668,
+        2.3146872520446777,
+        3.9832305908203125
+      ],
+      "min": [
+        12.090999603271484,
+        2.1164169311523438,
+        -4.0117645263671875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 257592,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 85576,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        1.2377300262451172,
+        1.186400055885315
+      ],
+      "min": [
+        0.036722999066114426,
+        0.9886130094528198
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 42900,
+      "componentType": 5125,
+      "count": 108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 258456,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        -8.790850639343262,
+        1.390477180480957,
+        3.999237060546875
+      ],
+      "min": [
+        -9.973091125488281,
+        0.8697972297668457,
+        -4.0797576904296875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 258888,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        -0.7927924990653992,
+        -0.07849080115556717,
+        0.6044162511825562
+      ],
+      "min": [
+        -0.9787130951881409,
+        -0.22027486562728882,
+        -0.6044138669967651
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 86152,
+      "componentType": 5126,
+      "count": 36,
+      "max": [
+        -2.7016499042510986,
+        -3.348059892654419
+      ],
+      "min": [
+        -3.711479902267456,
+        -3.413140058517456
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 43332,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dMuffin (https://sketchfab.com/3dMuffin)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cyber-truck-lowpoly-d46b6c9b01b244b5bf75bc45e1950182",
+      "title": "Cyber Truck (LowPoly)"
+    },
+    "generator": "Sketchfab-16.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 43476,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 86440,
+      "byteOffset": 43476,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 259320,
+      "byteOffset": 129916,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 389236,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_emissive_strength"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Meshesvehicleexamplemapuntitledglass10011Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0217572,
+          0.0217572,
+          0.0217572,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Meshesvehicleexamplemapuntitledsid00111Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.373615,
+          0.368591,
+          0.383775,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
+      "name": "Meshesvehicleexamplemapuntitledbodyshell00111Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.124741,
+          0.113921,
+          0.121986,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.849532493813314
+        }
+      },
+      "name": "Meshesvehicleexamplemapuntitledindicatorrf11Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.940601,
+          0.940601,
+          0.940601,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 3.8857261279272466
+        }
+      },
+      "name": "Part1Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 3.5809632943643255
+        }
+      },
+      "name": "Meshesvehicleexamplemapuntitledheadlightl00111Mtl",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.940601,
+          0.940601,
+          0.940601,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledglass10011Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledsid00111Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledbodyshell00111Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledindicatorrf11Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cybertruckslow_Part1Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledheadlightl00111Mtl_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "c9208bfcae664807b8141ec38c2f7bc3.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        99.99999999999972,
+        -7.5497901264043296e-06,
+        0.0,
+        0.0,
+        7.5497901264043296e-06,
+        99.99999999999972,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cybertruckslow"
+    },
+    {
+      "mesh": 0,
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledglass10011Mtl_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledsid00111Mtl_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledbodyshell00111Mtl_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledindicatorrf11Mtl_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Cybertruckslow_Part1Mtl_0"
+    },
+    {
+      "mesh": 5,
+      "name": "Cybertruckslow_Meshesvehicleexamplemapuntitledheadlightl00111Mtl_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

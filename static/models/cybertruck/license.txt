@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cyber Truck (LowPoly)
+* source:	https://sketchfab.com/3d-models/cyber-truck-lowpoly-d46b6c9b01b244b5bf75bc45e1950182
+* author:	3dMuffin (https://sketchfab.com/3dMuffin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cyber Truck (LowPoly)" (https://sketchfab.com/3d-models/cyber-truck-lowpoly-d46b6c9b01b244b5bf75bc45e1950182) by 3dMuffin (https://sketchfab.com/3dMuffin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

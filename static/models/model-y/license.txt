@@ -1,0 +1,8 @@
+Model Information:
+* title:	Tesla Model Y 2021
+* source:	https://sketchfab.com/3d-models/tesla-model-y-2021-156550b9eedc41a5b1138b32e0f91e88
+* author:	Jose Bronze (https://sketchfab.com/pinceladas3d)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

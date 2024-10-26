@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* 3D Container */
+#container3D {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the element */
+  width: 40vw; /* Adjust this to your preferred size */
+  height: 40vh; /* Adjust this to your preferred size */
+  z-index: 10;
+  pointer-events: none; /* Disable interactions */
+}
+
+/* Charts Background Layout */
+#charts-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1; /* Behind the 3D model */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns for chart, container, chart */
+  grid-template-rows: 1fr 1fr 1fr; /* Three rows for chart, container, chart */
+  gap: 20px;
+  padding: 20px;
+  pointer-events: none;
+}
+
+/* Individual Chart Styling */
+.chart {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Styling for containers (e.g., #container2, #container3, #container4) */
+#container2,
+#container3,
+#container4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Sub-containers inside other containers */
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Each sub-container takes half the height */
+  /* margin: auto; */
+}
+
+
+#chart5 {
+  grid-column: span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  pointer-events: none;
+  width: 100%; /* Fill the grid cell */
+  height: 100%;
+}
+
+
+#salesChart {
+  width: 100%; 
+  height: auto; 
+}
+
+/* Specific sizing for the radar chart */
+#efficiencyChart {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+#gaugeContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gaugeChartContainer {
+  width: 70%;
+  height: 100%;
+}
+
+/* Positioning for various elements */
+#chart1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#container1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#chart2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#container2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#chart3 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+#container3 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+#chart4 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#container4 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+/* ---------------------------------------------------style 1 -------------------------------------------*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: first baseline;
+  margin-bottom: 20px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.logo span {
+  font-size: 24px;
+  color: #111;
+}
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3vw;
+  height: 40px;
+  /* margin-bottom: 300px; */
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(65px);
+  -ms-transform: translateX(65px);
+  transform: translateX(65px);
+}
+
+.file-upload-text {
+  padding-right: 800px;
+  margin-bottom: 8px;
+  font-size: 56px;
+}
+
+.upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 200px;
+  color: #1976d2;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px solid #1976d2;
+  font-size: 56px;
+}
+
+.file-input {
+  display: none;
+}
+
+.max-size {
+  font-size: 56px;
+  color: #777;
+  margin-top: 5px;
+  padding-left: 680px;
+}
+
+.next-btn1 {
+  padding-left: 320px;
+  margin-top: 260px;
+}
+
+.next-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 160px; */
+  /* height: 160px; */
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.next-btn::before {
+  content: "";
+  border-style: solid;
+  border-width: 0.28em 0.28em 0 0;
+  display: inline-block;
+  /* height: 160px; */
+  /* width: 160px; */
+  transform: rotate(45deg);
+  border-color: black;
+}
+
+.button-24 {
+  background-color: transparent;
+  background-image: linear-gradient(#fff, #f5f5fa);
+  border: 0 solid #003dff;
+  border-radius: 9999px;
+  box-shadow: rgba(37, 44, 97, 0.15) 0 4px 11px 0,
+    rgba(93, 100, 148, 0.2) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #484c7a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Hind, system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin: 4px;
+  padding: 60px 30px;
+  text-align: center;
+  text-decoration: inherit;
+  text-wrap: nowrap;
+  transition: all 0.2s ease-out;
+  transition-behavior: normal;
+  white-space-collapse: collapse;
+  line-height: 2.15;
+  margin-left: 50px;
+}
+
+@media (min-width: 576px) {
+  .button-24 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.button-24:hover {
+  box-shadow: rgba(37, 44, 97, 0.15) 0 8px 22px 0,
+    rgba(93, 100, 148, 0.2) 0 4px 6px 0;
+}
+
+.button-24:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.text img {
+  width: 110px;
+  height: 110px;
+}
+
+.hidden {
+  display: none;
+}
+#text-input {
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  margin-bottom: 37px;
+  border-radius: 100px;
+  padding: 1.2em;
+  background-color: #e1e2e3;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+#text-input:focus {
+  background-color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}

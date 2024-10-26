@@ -1,0 +1,8 @@
+Model Information:
+* title:	Tesla Model X 2016
+* source:	https://sketchfab.com/3d-models/tesla-model-x-2016-3bbfb839a9af4b06a79ebc1ba4406580
+* author:	Gov3dstudio (https://sketchfab.com/gov3dstudio)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TREG</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style1.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="{{ url_for('static', filename='images/logo.png') }}"
+            alt="TREG Logo"
+          />
+          <span>TREG</span>
+        </div>
+      </header>
+      <main>
+        <!-- <div class="switch-container">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div> -->
+        <p class="file-upload-text">Tesla</p>
+
+        <!-- File upload form -->
+        <form
+          id="uploadForm"
+          method="POST"
+          action="/upload"
+          enctype="multipart/form-data"
+        >
+          <div class="label-container">
+            <label for="file-upload" class="upload-btn">
+              <span>+</span> Upload Photo
+            </label>
+          </div>
+          <input
+            type="file"
+            id="file-upload"
+            class="file-input"
+            name="carImage"
+          />
+          <div>
+            <p class="max-size">Max: 2 MB</p>
+          </div>
+
+          <!-- Hidden text input field
+          <div class="placeholder-container">
+            <input
+              type="text"
+              id="text-input"
+              name="carText"
+              class="hidden"
+              placeholder="Enter here"
+            />
+          </div> -->
+
+          <div class="next-btn1">
+            <button class="button-24" role="button">
+              <span class="text">
+                <img
+                  src="{{ url_for('static', filename='images/car-engine.png') }}"
+                  alt="car engine Logo"
+                />
+              </span>
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <script src="static/app.js"></script>
+  </body>
+</html>

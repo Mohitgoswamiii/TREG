@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="{{ url_for('static', filename='images/logo.png') }}"
+        alt="TREG Logo"
+      />
+      <span>TREG</span>
+    </div>
+    <div class="team-section">
+      <h1>Our Team</h1>
+      <div class="team-container">
+        <div class="team-member">
+          <img
+            src="{{ url_for('static', filename='images/c.jpg') }}"
+            alt="Charlie McMann"
+          />
+          <h2>Charmi Soni</h2>
+          <p>charmisoni1612@gmail.com</p>
+          <p>(437) 665-4369</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="{{ url_for('static', filename='images/m1.jpg') }}"
+            alt="Kris Ward"
+          />
+          <h2>Mohit Goswami</h2>
+          <p>mohitrgoswami17@gmail.com</p>
+          <p>(647)231-0687</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="{{ url_for('static', filename='images/s.jpg') }}"
+            alt="Alex Smith"
+          />
+          <h2>Sahil Faldu</h2>
+          <p>sahilfaldu560@gmail.com</p>
+          <p>(437) 665-5691</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="{{ url_for('static', filename='images/d.jpg') }}"
+            alt="Reese Whitman"
+          />
+          <h2>Dhruvi Ahir</h2>
+          <p>dhruviahir619@gmail.com</p>
+          <p>(647) 719-4072</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

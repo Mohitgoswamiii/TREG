@@ -1,0 +1,8 @@
+Model Information:
+* title:	Tesla Model S Plaid 2021
+* source:	https://sketchfab.com/3d-models/tesla-model-s-plaid-2021-f4f818b7eca247669d5d253faa32f335
+* author:	Jose Bronze (https://sketchfab.com/pinceladas3d)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
